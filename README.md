@@ -10,6 +10,6 @@ However, there are some comments I want to note with Jack after attempted person
 
 First off, I was unable to figure the syntax or coding that would allow me to call one config.py from one folder. I am unsure whether syntax or dependencies are the issue, but it has forced me to place a copy of config.py in multiple folders. Thankfully, the gitignore successfully made sure that the config.py file would not be pushed to the repository. 
 
-Secondly, calling the APIs to build the populate and build the city_data_df dataframe takes forever. True, APIs are slow in calling data, but the time that is spent calling the data is time users will have to wait while time is a premium for them. While the current crop of beta testers might enjoy the app as is, trying the to add additional data might cause a chillier reception is the general consummer base. 
+Secondly, calling the APIs to build the populate and build the city_data_df dataframe takes forever. True, APIs are slow in calling data, but the time that is spent is a premium for some users. While the current crop of beta testers might enjoy the app as is, trying to add additional data using current APIs might cause a chillier reception is the general consummer base. 
 
 Also, having the user manually input their city destinations is a hassle. While the intent of this version is to prove that the app works, a more easier method of user input should be looked into before the app goes on the market. Being able to pick and choose from a dataframe, or even choosing from the map directly could be much easier. 
